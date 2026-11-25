@@ -6,3 +6,7 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+# Netlify's Next.js runtime: serves the app, images and routing.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
